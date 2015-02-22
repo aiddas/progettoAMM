@@ -1,0 +1,28 @@
+Autore: Andrea Iddas 48124
+L'applicazione è una fan page al regista Quentin Tarantino.
+I contenuti sono fruibili agli utenti non registrati.
+Tuttavia gli utenti registrati hanno accesso alla scheda del cast  scelto dal regista per interpretare il suo ultimo film.
+
+    L'utente registrato può visualizzare le informazioni riguardanti gli attori
+    L'admin può cancellare un attore e sostituirlo con uno a sua scelta
+
+Requisiti del progetto
+
+    Utilizzo di HTML e CSS
+    Utilizzo di PHP e MySQL
+    Utilizzo del pattern MVC
+    Due ruoli (utente e admin)
+    Transazione sostituzione attore "updateDescription()" nella classe Modello.php
+    Caricamento ajax non implementato
+
+Accesso al progetto
+
+Credenziali
+
+    Ruolo utente registrato:
+        username: user
+        password: user
+    Ruolo admin:
+        username: admin
+        password: admin
+

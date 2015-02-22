@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  
+	<head>
+		<title>Tarantino Cast - Scheda Attore</title>
+		<meta charset="utf-8"/>
+		<meta name="keywords" content="TARANTINO, MOOVIE, FILM, WESTERN, CULT">
+		<meta name="description" content= "Progetto Amm 2013/14, more info in file info.txt">
+		<meta name="author" content= "Andrea Iddas 48124">
+		<style type="text/css"></style>
+		<!--<base href="/img/">-->
+		<link rel="stylesheet" type="text/css" href="./public/css/stile.css">
+		<script type="text/javascript"></script>
+	</head>
+
+<body>
+
+<h1> Frutta Fresca da Cecco </h1>
+<h1><img src="images/logo.jpg" alt="logo"></h1>
+<h2> DETTAGLIO MERCE </h2>
+
+
+<article>
+ <p> Nome: <?= $a->nome ?> </p>
+ <p> Descrizione: <?= $a->descrizione ?></p>
+ <p> Prezzo: <?= $a->prezzo ?> &euro; </p>
+ <p> Foto: <img src="images/<?= $a->foto ?>" alt="foto dell'articolo"> </p>
+ <p> </p>
+ <p> <a href="index.php?comando=mettinelcarrello&merce=<?= $a->nome ?>">
+    Metti nel carrello </a></p>
+
+</article>
+
+
+<p> <a href="index.php?comando=mostracatalogo">
+    Torna al Catalogo </a> </p>
+</body>
+</html>

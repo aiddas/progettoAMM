@@ -1,0 +1,20 @@
+<?php
+include_once 'Immagine.php';
+class Gallery {
+
+public static function getNew()
+{
+
+$img= new Immagine;
+$img->image = "ciaonext";
+$img->id = "ciaoIDnext";
+
+
+return $img;
+}
+
+
+
+
+}
+?>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<title>Tarantino Cast - Biografia</title>
+
+		<meta charset="utf-8"/>
+
+		<meta name="keywords" content="TARANTINO, MOOVIE, FILM, WESTERN, CULT">
+
+		<meta name="description" content= "Progetto Amm 2013/14, more info in file info.txt">
+
+		<meta name="author" content= "Andrea Iddas 48124">
+
+		<style type="text/css"></style>
+
+		<link rel="stylesheet" type="text/css" href="./public/css/stile.css">
+
+	</head>
+
+
+
+	<body>
+
+    	<div id="page">
+
+    	    <div id="headerwrapper">
+        		<div id="header">
+            		<h1>Tarantino Cast</h1>
+	        	    <h2>i protagonisti del prossimo moovie</h2>
+				</div>
+        	</div>
+
+	        <div id="navwrapper">
+		        <div id="nav">
+		            <a href="index.php">Home</a>
+		    		<a href="index.php?comando=istruzioni">Istruzioni</a>
+		    		<a href="index.php?comando=me">Autore</a>
+		        </div>
+        	</div>
+
+	    	<div id="contentliquid">
+				<div id="contentwrapper">
+					<!-- contenuto -->
+			        <div id="content">
+						<h2>Quentin Tarantino</h2>
+						<h3>Da Wikipedia, l'enciclopedia libera.</h3>
+						<article>
+						<strong>« Il mio cinema o si ama o si odia. »</strong></br>
+						(Quentin Tarantino al momento dell'assegnazione della Palma d'oro per Pulp Fiction)
+						</br><p>
+
+Quentin Jerome Tarantino (Knoxville, 27 marzo 1963) è un regista, sceneggiatore, attore e produttore cinematografico statunitense.</p></br>
+<p>
+Particolarmente celebre per la sua cinefilia quasi maniacale e orientata, in special modo, alla cinematografia di genere (B-movie, exploitation), fervente ammiratore del cinema italiano dei primi anni settanta (Sergio Leone, Dario Argento, Mario Bava, Lucio Fulci e tutto il filone del cinema poliziottesco), Tarantino è stato definito un regista DJ per la sua capacità di riuscire a combinare stili diversi fondendoli insieme in una nuova opera.</p>
+<p>
+Iniziò la sua carriera come regista all'inizio degli anni novanta, raggiungendo il successo di critica con il film di debutto Le iene. Con il successivo Pulp Fiction arrivò la consacrazione, vincendo la Palma d'oro al Festival di Cannes e conquistando, oltre a sette nomination, il premio per la miglior sceneggiatura originale, condiviso con Roger Avary, ai Premi Oscar 1995. Nel 2004 fu presidente della giuria alla 57ª edizione del Festival di Cannes e nel 2010 alla 67ª Mostra internazionale d'arte cinematografica di Venezia. Il 24 febbraio 2013 si aggiudicò la sua seconda statuetta per la migliore sceneggiatura originale ai Premi Oscar 2013.</p>
+
+Il regista e storico del cinema Peter Bogdanovich lo ha definito il regista più influente della sua generazione.</br>
+</article>
+
+        		</div>	
+	        </div>
+		</div>
+
+        <div id="leftcolumnwrap">
+			<!-- menu sinistro -->
+	        <div id="leftcolumn">
+				<ul>
+		        <li><a href="index.php?comando=gallery">Gallery</a></li>
+		        <li><a href="index.php?comando=regista">Tarantino</a></li>
+	       		<li><a href="index.php?comando=filmografia">Films</a></li>
+	      		<li><a href="index.php?comando=links">Links</a></li>
+				</ul>
+	        </div>
+		</div>
+
+		<div id="footerwrap">
+        	<div id="footer">	
+	            <p>Autore: Andrea Iddas, Progetto Amministrazione di sistema 2013/14, <a href="http://validator.w3.org/check/referer">Validator Html</a></p>
+        	</div>
+    	</div>
+
+    </div>
+
+</body>
+
+</html>
+

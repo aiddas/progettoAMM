@@ -1,0 +1,22 @@
+<?php
+
+class Immagine {
+	private $url;
+	private $id;
+
+	public function __construct() {
+	}
+
+
+	
+ 	public function setImage($url){
+		$this->url = $url;
+	}
+
+	public function getImage(){
+		return $this->url;
+	}
+
+
+}
+?>

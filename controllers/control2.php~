@@ -1,0 +1,36 @@
+<?php
+
+include("system/db/conn.php");
+include_once("models/Modello.php");
+include_once("models/Login.php");
+
+
+class Controllo
+{
+    // attributo per l'oggetto Modello
+    private $modello;
+private $login;
+
+    public function __construct()
+    {
+         $this->modello = new Modello();
+$this->login = new Login();
+    }
+
+    
+public function invoke()
+
+ {
+$reslt = $this->login->getlogin();     // it call the getlogin() function of model class and store the return value of this function into the reslt variable.
+if($reslt == 'login')
+{
+include("view/mostracatalogo.php");
+}
+else
+{
+include("view/paginainiziale.php");
+}
+}
+}
+
+?>

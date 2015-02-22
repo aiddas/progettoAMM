@@ -1,0 +1,11 @@
+<?php
+
+class Articolo
+{
+   // attributi
+   public $nome;
+   public $descrizione;
+
+}
+
+?>
